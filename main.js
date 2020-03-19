@@ -18,6 +18,7 @@ age = prompt('Quanti anni hai?');
 // Calcolo il prezzo del biglietto
 ticketPrice = 0.21 * numKm;
 
+
 // Verifico se l'età dell'utente è <=17 o >65 ed eventualmente applico gli specifici sconti.
 if (age <= 17){
   discount = 20;
